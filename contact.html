@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacto - Mi Primer Proyecto Git Avanzado</title>
+</head>
+<body>
+  <h1>Contacto</h1>
+
+  <form action="#" method="post" id="contact-form">
+    <label for="nombre">Nombre</label><br />
+    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo"><br /><br />
+
+    <label for="correo">Correo electrónico</label><br />
+    <input type="email" id="correo" name="correo" required placeholder="tu@ejemplo.com"><br /><br />
+
+    <label for="tipo">Tipo de consulta</label><br />
+    <select id="tipo" name="tipo" required>
+      <option value="">-- Selecciona --</option>
+      <option value="soporte">Soporte técnico</option>
+      <option value="ventas">Información de ventas</option>
+      <option value="otros">Otros</option>
+    </select><br /><br />
+
+    <label for="mensaje">Mensaje</label><br />
+    <textarea id="mensaje" name="mensaje" rows="6" required placeholder="Escribe tu mensaje aquí..."></textarea><br /><br />
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
